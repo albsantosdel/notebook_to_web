@@ -1,5 +1,5 @@
 # notebook_to_web
-Generate a web-page like output from an exported HTML notebook
+Generate a web-page like output from an exported HTML notebook. Some of the code is still specific for the Clinical Proteomcs department.
 
 How to use Notebook to Web
 ---------------------------
