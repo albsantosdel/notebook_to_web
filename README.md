@@ -24,12 +24,17 @@ $( document ).ready(code_toggle);
 The raw code for this IPython notebook is by default hidden for easier reading.
 To toggle on/off the raw code, click <a href="javascript:code_toggle()">here</a>.''')
 ```
-3. Download your notebook as HTML and save it in the repository directory
-4. Include a logo.jpg figure in the img/ folder and a YAML file with the title and description of the logo.
+3. Include a logo.jpg figure in the img/ folder and a YAML file with the title and description of the logo.
 The logo figure will be shown at the top of the page and Title and description will show at the bottom of the figure. You can follow the dummy example.
-5. Modify the file aboutus.txt to include the information you want: about, collaborators and funding. The dummy example shows an example of how it can be used.
-6. Execute the blog_converter.py script:
-  > python blog_converter.py name_of_your_html_file.html
-7. The new HTML file with a more web page feeling will be stored with the name *name_of_your_html_file.html.new.html*
+4. Modify the file aboutus.txt to include the information you want: about, collaborators and funding. The dummy example shows an example of how it can be used.
+5. Modify script generate_web.sh with the name of your Jupyter Notebook file (.ipynb):
+```shell
+jupyter nbconvert --to HTML "name_of_your_notebook.ipynb" 
+python blog-convert.py "name_of_your_notebook.html"
+```
+6. Execute the generate_web.sh:
+./generate_web.sh
+
+7. The new HTML file with a more web page feeling will be stored with the name *name_of_your_notebook.html.new.html*
 
 ![dummy](./src/dummy_web.png)
