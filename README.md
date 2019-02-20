@@ -27,6 +27,6 @@ To toggle on/off the raw code, click <a href="javascript:code_toggle()">here</a>
 3. Download your notebook as HTML and save it in the repository directory
 4. Execute the blog_converter.py script:
 > python blog_converter.py name_of_your_html_file.html
-5. Then new HTML file with a more web page feeling will be stored with the name *name_of_your_html_file.html.new.html*
+5. The new HTML file with a more web page feeling will be stored with the name *name_of_your_html_file.html.new.html*
 
 ![dummy](./src/dummy_web.png)
