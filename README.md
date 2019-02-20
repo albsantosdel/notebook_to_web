@@ -29,4 +29,4 @@ To toggle on/off the raw code, click <a href="javascript:code_toggle()">here</a>
 > python blog_converter.py name_of_your_html_file.html
 5. Then new HTML file with a more web page feeling will be stored with the name *name_of_your_html_file.html.new.html*
 
-![dummy](./dummy_web.png)
+![dummy](./src/dummy_web.png)
